@@ -1,0 +1,957 @@
+@media only screen and (min-device-height: 651px) 
+and (max-device-width: 2100px) 
+and (orientation : landscape) {
+
+  .hero-div {
+    background-size: cover;
+    background-image: url('bckrd.jpg');
+
+     background-position: center 45%;
+    
+      min-height: 100vh;
+    min-width: 100vh;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 8vh;
+    margin-left:60px;
+    margin-top: 40px;
+  }
+
+  .callout {
+    float: left;
+    max-width: 560px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+
+  .calloutForm{
+  clear:left;
+  width:450px;
+  margin-top: 9%;
+  margin-left: 40%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+  font-weight: 300;
+  margin-left: 10px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 26pt;
+    text-align: left;
+    line-height: 32pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:58px;
+    margin-top:60px;
+    margin-bottom: 8px;
+
+  }
+  #subHeading{
+    margin: 0px;
+    padding:0px;
+    float:left;
+    font-family: 'lato';
+    color: white;
+    font-size: 10.5pt;
+    line-height: 13pt;
+    text-align: left;
+    margin-left: 63px;
+    clear: right;
+
+  }
+  #email{
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 39px;
+    font-size:16px;
+    width: 200px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 57px;
+  }
+  #submit{
+    float: left;
+    background: url(arrow.png) no-repeat 0 0;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    cursor: pointer;
+    display: inline-block;
+    height: 65px;
+    vertical-align:bottom;
+   /* text-indent: -9999px;*/
+    width: 63px;
+    margin-left: 2px;
+    padding-left: 0px;
+    outline: none;
+    color: #0abbed;
+  }
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  .showBrk{
+    display: none;
+  }
+  #shares{
+    margin-left: 150px;
+    width: 400px;
+  }
+  .error{
+    font-family: 'lato';
+    color:#5fe3f9;
+  }
+
+}
+@media only screen and (min-device-height: 1024px) 
+and (max-device-width: 768px) 
+and (orientation : portrait) {
+  .error{
+    font-family: 'lato';
+    color:#d395be;
+  }
+  .hero-div {
+    background-size: cover;
+    background-image: url('mobile-bckg.jpg');
+
+     background-position: center 45%;
+    
+      min-height: 100vh;
+    min-width: 100vh;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 8vh;
+    margin-left:25px;
+    margin-top: 35px;
+  }
+
+  .callout {
+    float: left;
+    width: 85%;
+    margin-left: 30px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+
+  .calloutForm{
+  clear:left;
+  width:450px;
+  margin-top: 9%;
+  margin-left: 15%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+  font-weight: 300;
+  margin-left: 10px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 26pt;
+    text-align: left;
+    line-height: 32pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:0px;
+    margin-top:60px;
+    margin-bottom: 8px;
+
+  }
+  #subHeading{
+    width: 90%;
+    margin: 0px;
+    margin-top: 50px;
+    padding:0px;
+    float:left;
+    font-family: 'lato';
+    color: white;
+    font-size: 10.5pt;
+    line-height: 13pt;
+    text-align: left;
+    margin-left: 0px;
+    clear: right;
+
+  }
+  #email{
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 39px;
+    font-size:16px;
+    width: 200px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 57px;
+  }
+  #submit{
+    float: left;
+    background: url(arrow.png) no-repeat 0 0;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    cursor: pointer;
+    display: inline-block;
+    height: 65px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 63px;
+    margin-left: 2px;
+    padding-left: 0px;
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  .showBrk{
+    display: initial;
+  }
+  #shares{
+    margin-left: 150px;
+    width: 400px;
+  }
+
+}
+
+@media only screen and (min-device-height: 760px) 
+and (min-device-width: 1060px)
+and (orientation : portrait) {
+  .error{
+    font-family: 'lato';
+    color:#d395be;
+  }
+  .hero-div {
+    background-size: cover;
+    background-image: url('mobile-bckg.jpg');
+
+     background-position: center 45%;
+    
+      min-height: 100vh;
+    min-width: 100vh;
+  }
+
+  .logo {
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 8vh;
+    margin-left:25px;
+    margin-top: 35px;
+  }
+
+  .callout {
+    float: left;
+    width: 100%;
+    margin-left: 30px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+
+  .calloutForm{
+  clear:left;
+  width:450px;
+  margin-top: 9%;
+  margin-left: 15%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+  font-weight: 300;
+  margin-left: 10px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 26pt;
+    text-align: left;
+    line-height: 32pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:0px;
+    margin-top:60px;
+    margin-bottom: 8px;
+    
+  }
+  #subHeading{
+    width: 90%;
+    margin: 0px;
+    margin-top: 50px;
+    padding:0px;
+    float:left;
+    font-family: 'lato';
+    color: white;
+    font-size: 10.5pt;
+    line-height: 13pt;
+    text-align: left;
+    margin-left: 0px;
+    clear: right;
+
+  }
+  #email{
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 39px;
+    font-size:16px;
+    width: 200px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 57px;
+  }
+  #submit{
+    float: left;
+    background: url(arrow.png) no-repeat 0 0;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    cursor: pointer;
+    display: inline-block;
+    height: 65px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 63px;
+    margin-left: 3px;
+    padding-left: 0px;
+    outline: none;
+  }
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:25px;
+  }
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  .showBrk{
+    display: initial;
+  }
+  #shares{
+    margin-left: 150px;
+    width: 400px;
+  }
+  .ipd{
+    display: none;
+  }
+
+}
+
+
+    
+@media only screen and (min-width: 1px) 
+and (max-device-width: 400px) 
+and (max-device-height: 900px)
+and (orientation : portrait) {
+    .error{
+    font-family: 'lato';
+    color:#d395be;
+  }
+      .hero-div {
+        
+        background-image: url('mobile-bckg.jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 568px;
+        height: 1600px;
+        padding: 0px;
+        margin:0px;
+
+      }
+      body{
+        padding: 0px;
+        border: 0px;
+        margin:0px;
+      }
+
+  .logo {
+    padding:0px;
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 20vh;
+    margin-left: 153px;
+    margin-top: 90px;
+  }
+
+    .callout {
+    float: left;
+    max-width: 564px;
+    margin-left: 4px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+    .calloutForm{
+  clear:left;
+  width:493px;
+  margin-top: 30%;
+  margin-left: 7%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+    font-size:36pt;
+  font-weight: 300;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 60pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:15px;
+    margin-top:120px;
+    margin-bottom: 8px;
+
+  }
+  #subHeading{
+    margin: 0px;
+    padding:0px;
+    width:520px;
+    float:left;
+    margin-top: 125px;
+    font-family: 'lato';
+    color: white;
+    font-size: 24pt;
+    line-height: 36pt;
+    text-align: center;
+    margin-left: 20px;
+    clear: right;
+
+  }
+  #email{
+    display:inline-block;
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 69px;
+    font-size:40px;
+    width: 360px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 80px;
+    -webkit-appearance: none;
+    z-index: 100;
+    clear: both;
+  }
+  #submit{
+    display:inline-block;
+    float: right;
+    background-color: white;
+    background: url(arrow.png) no-repeat 0 0;
+    background-size: 103px 103px;
+    outline: none;
+    margin:0px;
+    padding:0px;
+    z-index: -100;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    border-left: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 102px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 102px;
+    left:0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    
+  }
+
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  #shares{
+    margin-left: 150px;
+  }
+
+  .mobileT{
+    clear:both;
+    padding-left: 18px;
+    width: 500px;
+
+  }
+
+}
+
+@media only screen and (min-width: 1px) 
+and (max-device-width: 400px) 
+and (max-device-height: 900px)
+and (orientation : landscape) {
+      .hero-div {
+        
+        background-image: url('mobile-bckg.jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 568px;
+        height: 1600px;
+        padding: 0px;
+        margin:0px;
+
+      }
+      body{
+        padding: 0px;
+        border: 0px;
+        margin:0px;
+
+      }
+
+  .logo {
+    padding:0px;
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 40vh;
+    margin-left: 125px;
+    margin-top: 30px;
+  }
+
+    .callout {
+    float: left;
+    max-width: 564px;
+    margin-left: 4px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+    .calloutForm{
+  clear:left;
+  width:493px;
+  margin-top: 30%;
+  margin-left: 7%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+    font-size:36pt;
+  font-weight: 300;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 60pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:15px;
+    margin-top:30px;
+    margin-bottom: 8px;
+
+  }
+  #subHeading{
+    margin: 0px;
+    padding:0px;
+    width:520px;
+    float:left;
+    margin-top: 125px;
+    font-family: 'lato';
+    color: white;
+    font-size: 24pt;
+    line-height: 36pt;
+    text-align: center;
+    margin-left: 20px;
+    clear: right;
+
+  }
+  #email{
+    display:inline-block;
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 69px;
+    font-size:40px;
+    width: 360px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 80px;
+    -webkit-appearance: none;
+    z-index: 100;
+    clear: both;
+  }
+  #submit{
+    display:inline-block;
+    float: right;
+    background-color: white;
+    background: url(arrow.png) no-repeat 0 0;
+    background-size: 103px 103px;
+    outline: none;
+    margin:0px;
+    padding:0px;
+    z-index: -100;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    cursor: pointer;
+    display: inline-block;
+    height: 102px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 102px;
+    left:0px;
+    margin-left: 3px;
+    padding-left: 0px;
+    
+  }
+
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  #shares{
+    margin-left: 150px;
+  }
+
+  .mobileT{
+    clear:both;
+    padding-left: 18px;
+    width: 500px;
+
+  }
+  .error{
+  font-family: 'lato';
+  color:#d395be;
+}
+@media only screen and (min-width: 1px) 
+and (max-device-width: 900px) 
+and (max-device-height: 400px)
+and (orientation : landscape) {
+      .hero-div {
+        
+        background-image: url('mobile-bckg.jpg');
+        background-position: center center;
+        background-size: cover;
+        width: 568px;
+        height: 1600px;
+        padding: 0px;
+        margin:0px;
+
+      }
+      body{
+        padding: 0px;
+        border: 0px;
+        margin:0px;
+      }
+
+  .logo {
+    padding:0px;
+    display: block;
+    float: left;
+    /* Margins and stuff too */
+    height: 20vh;
+    margin-left: 153px;
+    margin-top: 90px;
+  }
+
+    .callout {
+    float: left;
+    max-width: 564px;
+    margin-left: 4px;
+    /* Margins, Fonts and stuff too */
+  }
+
+  .callout {
+    display: block;
+    text-align: center;
+    clear:left;
+
+  }
+    .calloutForm{
+  clear:left;
+  width:493px;
+  margin-top: 30%;
+  margin-left: 7%;
+  display: block;
+  color: white;
+  font-size: 18pt;
+  float:left;
+  }
+
+  #formHeading{
+    margin: 0px;
+    font-family: 'latolight';
+    font-size:36pt;
+  font-weight: 300;
+  margin-left: 40px;
+  margin-bottom: 35px;
+  }
+
+  body{
+    border: 0px;
+    margin: 0px;
+  }
+  #title{
+    font-family: 'core_magicregular';
+    color: white;
+    font-weight: 100;
+    font-size: 36pt;
+    text-align: center;
+    line-height: 60pt;
+    letter-spacing:-3pt;
+    clear: left;
+    margin-left:15px;
+    margin-top:120px;
+    margin-bottom: 8px;
+
+  }
+  #subHeading{
+    margin: 0px;
+    padding:0px;
+    width:520px;
+    float:left;
+    margin-top: 125px;
+    font-family: 'lato';
+    color: white;
+    font-size: 24pt;
+    line-height: 36pt;
+    text-align: center;
+    margin-left: 20px;
+    clear: right;
+
+  }
+  #email{
+    display:inline-block;
+    text-align: center; 
+    font-family: 'Lato';
+    line-height: 69px;
+    font-size:40px;
+    width: 360px;
+    border: solid #d3fcff 3px;
+    border-radius: 6px;
+    color: #0abbed;
+    padding-right: 0px;
+    margin-right: 0px;
+    float: left;
+    outline: none;
+    height: 80px;
+    -webkit-appearance: none;
+    z-index: 100;
+    clear: both;
+  }
+  #submit{
+    display:inline-block;
+    float: right;
+    background-color: white;
+    background: url(arrow.png) no-repeat 0 0;
+    outline: none;
+    margin:0px;
+    padding:0px;
+    z-index: -100;
+    background-size: cover;
+    border: solid #d395be 3px;
+    border-radius: 6px; 
+    border-left: solid #d395be 3px;
+    cursor: pointer;
+    display: inline-block;
+    height: 102px;
+    line-height: 0;
+    text-indent: -9999px;
+    width: 102px;
+    left:0px;
+    margin-left: 2px;
+    padding-left: 0px;
+    
+  }
+
+  ::-webkit-input-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  :-moz-placeholder {
+    color: #0abbed;
+    font-size:40px;
+  }
+  input:focus::-webkit-input-placeholder { color:transparent; }
+  input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+  input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+  input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+  #shares{
+    margin-left: 150px;
+  }
+
+  .mobileT{
+    clear:both;
+    padding-left: 18px;
+    width: 500px;
+
+  }
+  .error{
+  font-family: 'lato';
+  color:#d395be;
+}
+
+}
+
+

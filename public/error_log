@@ -1,0 +1,19 @@
+[10-Apr-2018 10:56:46 UTC] PHP Warning:  Uncaught ErrorException: require_once(../.well-known/acme-challenge/1khDlZ6OI4W7zLVzN4YB6Bbo7wSH9-QvIvDIG8_0Wlw): failed to open stream: No such file or directory in /home/homewziq/public_html/routes/web.php:19
+Stack trace:
+#0 /home/homewziq/public_html/routes/web.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(.....', '/home/homewziq/...', 19, Array)
+#1 /home/homewziq/public_html/routes/web.php(19): require_once()
+#2 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(191): Illuminate\Routing\Router->{closure}()
+#3 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(165): Illuminate\Routing\Route->runCallable()
+#4 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(610): Illuminate\Routing\Route->run()
+#5 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\H in /home/homewziq/public_html/routes/web.php on line 19
+[10-Apr-2018 10:56:46 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '../.well-known/acme-challenge/1khDlZ6OI4W7zLVzN4YB6Bbo7wSH9-QvIvDIG8_0Wlw' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/homewziq/public_html/routes/web.php on line 19
+[10-Apr-2018 10:58:06 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home/homewziq/public_html/routes../): failed to open stream: No such file or directory in /home/homewziq/public_html/routes/web.php:19
+Stack trace:
+#0 /home/homewziq/public_html/routes/web.php(19): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home/homewziq/...', 19, Array)
+#1 /home/homewziq/public_html/routes/web.php(19): require_once()
+#2 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(191): Illuminate\Routing\Router->{closure}()
+#3 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(165): Illuminate\Routing\Route->runCallable()
+#4 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(610): Illuminate\Routing\Route->run()
+#5 /home/homewziq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(30): Illuminate\Routing\Router->Illuminate\Routing\{closure}(Object(Illuminate\Http\Request))
+#6 /home/homewziq/publi in /home/homewziq/public_html/routes/web.php on line 19
+[10-Apr-2018 10:58:06 UTC] PHP Fatal error:  Illuminate\Routing\Router::{closure}(): Failed opening required '/home/homewziq/public_html/routes../' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/homewziq/public_html/routes/web.php on line 19
